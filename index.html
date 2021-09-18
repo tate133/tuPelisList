@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Aprendiendo JavaScript</title>
+</head>
+<body class="contenido">
+    <!--Encabezado-->
+    <header id="header">
+        <h1 id="letter-header">Lista de tus mejores pelis</h1>
+    </header>
+
+    <!--Secciones-->
+    <section class="flex-container">
+        <!--Caja del formulario-->
+        <div id="box-form">
+            <!--Formulario para el ingreso de películas-->
+            <div id="box-add">
+                <h1>Añade tu película</h1>
+                <form action="" id="formpeliculas">
+                    <input type="text" id="addpelicula">
+                    <button id="boton" type="submit">Guardar</button>
+                </form>
+            </div>
+            <!--Formulario para borrar películas-->
+            <div id="box-delet">
+                <h1>Borra tu película</h1>
+                <form action="" id="formBorrarPeliculas">
+                    <input type="text" id="borrarPelicula">
+                    <button id="boton2" type="submit">Borrar</button>
+                </form>
+            </div>
+        </div>
+        
+        <!--Caja de lista de pelis-->
+        <div id="box-list">
+            <!--Listado de las películas-->
+            <div id="list"> 
+                <h2>Lista de tus Peliculas Ingresadas</h2>
+                <ul id="peliculas-list">
+
+                </ul>
+            </div>
+        </div>
+    </section> <!--FIN sección-->
+
+    <!--Script para traer el código JS-->
+    <script type="text/javascript" src= "localStorage-form.js"></script>
+
+    <!--Pie de página-->
+    <footer id="pie">
+        <p>Desarrollado por Ramirez Exequiel &copy; 2021</p>
+    </footer>
+
+</body><!--FIN cuerpo-->
+</html>
